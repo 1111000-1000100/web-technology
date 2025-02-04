@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background-color: #f5e6d1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-title {
+    margin-bottom: 20px;
+    color: #7f4534;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #a78579;
+    background-color: #f5e6d1;
+}
+
+th, td {
+    border: 1px solid #a78579;
+    padding: 8px 15px;
+    text-align: left;
+}
+
+
+thead th {
+  background-color: #ecd0c2;
+  color: #5c3422;
+  font-weight: bold;
+}
+
+.period-header {
+  background-color: #b96c5a;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+}

@@ -1,0 +1,280 @@
+/*1 страница*/
+
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.clearfix{
+	clear: both;
+}
+.menu1 {
+	color: blue; 
+	list-style-position: inside;}
+.menu1 a:link, .menu1 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	}
+.menu1 a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+/*2 страница*/
+
+.menu2 {
+	list-style-type: none;
+	width: 200px;
+}
+
+.menu2 li {
+	margin-bottom: 5px;
+}
+
+.menu2 a:link, .menu2 a:visited {
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid blue;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+
+.menu2 a:hover {
+font-weight: bold;
+}
+
+/*3 страница*/
+
+.menu3 {
+	list-style-type: none;
+	width: 200px;
+}
+
+.menu3 li {
+	margin-bottom: 5px;
+}
+
+.menu3 a:link, .menu3 a:visited {
+	text-decoration: none;
+	color: white;
+	font: 13px Arial;
+	border: 1px solid rgb(51, 51, 51);
+	background-color: rgb(51, 51, 51);
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.menu3 a:hover {
+color:red;
+}
+
+.menu3 li.another a {
+    color: black;
+    background-color: white;
+}
+
+.menu3 li.another a:hover {
+    color: red;
+}
+
+/*4 страница*/
+
+.menu4 {
+	list-style-type: none;
+	width: 200px;
+}
+
+.menu4 li {
+	margin-bottom: 5px;
+}
+
+.menu4 a:link, .menu4 a:visited {
+	text-decoration: none;
+	color: white;
+	font: 13px Arial;
+	border: 1px solid blue;
+	background-color: rgb(0, 162, 255);
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.menu4 a:hover {
+color:blue;
+}
+
+.menu4 li.another a {
+    color: blue;
+    background-color: white;
+}
+
+.menu4 li.another a:hover {
+    color: blue;
+}
+
+/*5 страница*/
+
+.menu5 {
+	list-style-type: none;
+}
+.menu5 li{
+	margin-right: 4px; 
+	float: left;
+}
+.menu5 a:link, .menu5 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+.menu5 li.another a {
+    color: red;
+}
+
+.menu5 li.another a:hover {
+    color: red;
+}
+
+/*6 страница*/
+
+.menu6 {
+	list-style-type: none;
+}
+.menu6 li{
+	margin-right: 4px; 
+	float: left;
+}
+.menu6 a:link, .menu6 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+
+.menu6 a:hover{
+	color: red;
+}
+
+.menu6 li.another a {
+    color: white;
+	background-color: rgb(51, 51, 51);
+}
+
+.menu6 li.another a:hover {
+    color: red;
+}
+
+/*7 страница*/
+
+.nav-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+	background-color: white; 
+}
+
+.nav-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 20px;
+	text-decoration: none;
+	color: #ccc;
+	transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+	color: #666;
+}
+
+.nav-item.active {
+	color: #2196F3;
+}
+
+.nav-item img {
+	width: 40px;
+	height: auto;
+	margin-bottom: 5px;
+	opacity: 0.5;
+	transition: opacity 0.3s ease;
+}
+
+.nav-item:hover img {
+	opacity: 0.8;
+}
+
+.nav-item.active img {
+	opacity: 1;
+}
+
+
+/*8 страница*/
+
+.menu8 {
+	font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+.menu8 li {
+    margin-right: 5px;
+	float: left;
+}
+
+.menu8 a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #ffa500;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.menu8 a:hover {
+    background-color: #ff8c00;
+}
+
+.menu8 li.another a {
+    background-color: #ff4500;
+}
+
+/*9 страница*/
+
+.menu9 {
+    width: auto;
+    border-collapse: collapse;
+}
+
+
+.menu9 th {
+    padding: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.menu9 td {
+    padding: 5px;
+    text-align: center;
+    color: #666;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu9 td.anotherred {
+	color: red;
+}
+
+.menu9 .anotherblue {
+	color: lightblue;
+}
